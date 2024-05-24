@@ -1,4 +1,4 @@
-package Tabuleiro;
+package Tabuleiro_jogo;
 
 public class Posicao {
 

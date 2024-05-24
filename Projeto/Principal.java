@@ -1,11 +1,10 @@
 package Projeto;
 
-import Tabuleiro.Posicao;
+import Tabuleiro_jogo.Tabuleiro;
 
 public class Principal {
     public static void main(String[] args) {
-       Posicao pos = new Posicao(3,5);
-       System.out.println(pos);
+       Tabuleiro tabuleiro = new Tabuleiro(8, 8);
     }
 
 }

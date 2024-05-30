@@ -3,11 +3,11 @@ package Tabuleiro_jogo;
 public class Posicao {
 
     private int linha;
-    private int column;
+    private int coluna;
     
-    public Posicao(int linha, int column) {
+    public Posicao(int linha, int coluna) {
         this.linha = linha;
-        this.column = column;
+        this.coluna = coluna;
     }
 
     public int getLinha() {
@@ -18,17 +18,17 @@ public class Posicao {
         this.linha = linha;
     }
 
-    public int getColumn() {
-        return column;
+    public int getColuna() {
+        return coluna;
     }
 
-    public void setColumn(int column) {
-        this.column = column;
+    public void setColuna(int coluna) {
+        this.coluna = coluna;
     }
 
     @Override
     public String toString() {
-        return linha + "," + column;
+        return linha + "," + coluna;
     }
 
     

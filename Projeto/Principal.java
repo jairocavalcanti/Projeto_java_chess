@@ -1,10 +1,14 @@
 package Projeto;
 
-import Tabuleiro_jogo.Tabuleiro;
+import Xadrez.PartidaXadrez;
 
 public class Principal {
     public static void main(String[] args) {
-       Tabuleiro tabuleiro = new Tabuleiro(8, 8);
-    }
+       
+        PartidaXadrez partidaxadrez = new PartidaXadrez();
+        UI.imprimirtabuleiro(partidaxadrez.getpecas());
 
+
+
+    }
 }

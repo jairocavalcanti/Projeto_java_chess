@@ -1,5 +1,11 @@
 package Tabuleiro_jogo;
 
+/*
+  Classe que representa uma posição no tabuleiro de jogo.
+  A posição é definida por uma linha e uma coluna.
+*/
+
+
 public class Posicao {
 
     private int linha;

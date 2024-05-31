@@ -2,6 +2,11 @@ package Projeto;
 
 import Xadrez.PecaXadrez;
 
+/*
+  Classe UI (User Interface) para o projeto de xadrez.
+  Esta classe é responsável por imprimir o tabuleiro e as peças no console.
+ */
+
 // 'user_interface'
 public class UI {
 

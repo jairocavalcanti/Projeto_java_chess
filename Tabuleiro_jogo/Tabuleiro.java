@@ -1,5 +1,10 @@
 package Tabuleiro_jogo;
 
+/*
+  Classe que representa um tabuleiro de jogo.
+  Gerencia as posições e as peças no tabuleiro.
+*/
+
 public class Tabuleiro {
 
     private int linhas;
@@ -34,6 +39,13 @@ public class Tabuleiro {
 
     public Peca peca(Posicao posicao){
         return pecas[posicao.getLinha()][posicao.getColuna()];
+    }
+
+
+    public void setarpeca(Peca peca, Posicao posicao){
+        //atribuindo "peca" á sua posição na matriz de peças 
+        pecas[posicao.getLinha()][posicao.getColuna()] = peca;
+        peca.posicao = posicao;
     }
 
 }
